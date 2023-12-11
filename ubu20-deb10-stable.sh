@@ -26,8 +26,8 @@ clear;clear;clear
 echo -e "${YELLOW}----------------------------------------------------------${NC}"
 echo -e "  Dev > irul-GOOD${YELLOW}(${NC}${green} Stable Edition ${NC}${YELLOW})${NC}"
 echo -e " This Will Quick Setup VPN Server On Your Server"
-echo -e "  Auther : ${green}sodiq-tunnel� ${NC}${YELLOW}(${NC} ${green} 🇮🇩irulgood🇮🇩  ${NC}${YELLOW})${NC}"
-echo -e " © Recode By My Self irul-Good ${YELLOW}(${NC} 2023 ${YELLOW})${NC}"
+echo -e "  Auther : ${green}sodiq-tunnel® ${NC}${YELLOW}(${NC} ${green} ðŸ‡®ðŸ‡©irulgoodðŸ‡®ðŸ‡©  ${NC}${YELLOW})${NC}"
+echo -e " Â© Recode By My Self irul-Good ${YELLOW}(${NC} 2023 ${YELLOW})${NC}"
 echo -e "${YELLOW}----------------------------------------------------------${NC}"
 echo ""
 sleep 2
@@ -307,9 +307,9 @@ KEY="6751589620:AAHwjP6dzZhuqeyUOdYFc6742Q1YUVF1EjM"
 URL="https://api.telegram.org/bot$KEY/sendMessage"
     TIMEZONE=$(printf '%(%H:%M:%S)T')
     TEXT="
-<code>────────────────────</code>
-<b>⚡AUTOSCRIPT PREMIUM⚡</b>
-<code>────────────────────</code>
+<code>â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€</code>
+<b>âš¡AUTOSCRIPT PREMIUMâš¡</b>
+<code>â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€</code>
 <code>User     :</code><code>$username</code>
 <code>Domain   :</code><code>$domain</code>
 <code>IPVPS    :</code><code>$MYIP</code>
@@ -317,11 +317,11 @@ URL="https://api.telegram.org/bot$KEY/sendMessage"
 <code>DATE     :</code><code>$DATEVPS</code>
 <code>Time     :</code><code>$TIMEZONE</code>
 <code>Exp Sc.  :</code><code>$exp</code>
-<code>────────────────────</code>
-<b> 🇮🇩🇮🇩MADATI - STORE🇮🇩🇮🇩</b>
-<code>────────────────────</code>
+<code>â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€</code>
+<b> ðŸ‡®ðŸ‡©ðŸ‡®ðŸ‡©IRULL - TUNNELðŸ‡®ðŸ‡©ðŸ‡®ðŸ‡©</b>
+<code>â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€</code>
 <i>Automatic Notifications From Github</i>
-"'&reply_markup={"inline_keyboard":[[{"text":"ᴏʀᴅᴇʀ","url":"https://wa.me/6287787419181"}]]}' 
+"'&reply_markup={"inline_keyboard":[[{"text":"á´Ê€á´…á´‡Ê€","url":"https://wa.me/6283133813408"}]]}' 
 
     curl -s --max-time $TIMES -d "chat_id=$CHATID&disable_web_page_preview=1&text=$TEXT&parse_mode=html" $URL >/dev/null
 }

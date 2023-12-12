@@ -1,7 +1,9 @@
 # UP REPO DEBIAN
 <pre><code></code></pre>
 # UP REPO UBUNTU
+```
 apt update && apt upgrade -y && update-grub && sleep 2 && reboot
+```
 
 ### INSTALL SCRIPT 
 ```

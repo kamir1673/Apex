@@ -9,7 +9,13 @@ apt update && apt upgrade -y && update-grub && sleep 2 && reboot
 ```
 apt install -y && apt update -y && apt upgrade -y && wget -q https://raw.githubusercontent.com/irulgood/Apex/ZX/ubu20-deb10-stable.sh && chmod +x ubu20-deb10-stable.sh && ./ubu20-deb10-stable.sh
 ```
-
+### KALO STATUS HPOXY MERAH
+```
+rm -fr /etc/haproxy/hap.pem
+cat /etc/xray/xray.crt /etc/xray/xray.key | tee /etc/haproxy/hap.pem
+systemctl daemon-reload
+systemctl restart haproxy
+```
 ## UPDATE SCRIPT
 ```
 wget -q https://raw.githubusercontent.com/irulgood/Apex/ZX/update.sh && chmod +x update.sh && ./update.sh
